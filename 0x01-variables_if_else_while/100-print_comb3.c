@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main- function block
- * Descriptio- Script prints all possible different combinations of two digits 
+ * Description- Script prints all possible different combinations of two digits
+ *
  * Return: zero returned
  */
 int main(void)
