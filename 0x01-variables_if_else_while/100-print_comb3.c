@@ -1,38 +1,35 @@
 #include <stdio.h>
 /**
- * main - function block
- *
+ * main- function block
+ * Descriptio- Script prints all possible different combinations of two digits 
  * Return: zero returned
  */
 int main(void)
-
 {
-int number_left;
-int number_right;
+	int c;
+	int d = 0;
 
+	while (d < 10)
+	{
+		c = 0;
+		while (c < 10)
+		{
+			if (d != c && d < c)
+			{
+				putchar('0' + d);
+				putchar('0' + c);
 
-for (number_left = 48; number_right <= 78; number_left++)
-{
-for (number_right = number_left + 1 ; number_right <= 78; number_right++)
-{
+				if (c + d != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 
-putchar(number_left);
-putchar (number_right);
-
-
-if ((number_left == 56) && (number_right == 78))
-{
-break;
-}
-
-putchar(',');
-putchar (' ');
-
-}
-
-}
-
-putchar('\n');
-return (0);
-
+			c++;
+		}
+		d++;
+	}
+	putchar('\n');
+	return (0);
 }
