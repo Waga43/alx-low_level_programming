@@ -3,8 +3,7 @@
 #include <stdlib.h>
 /**
  * main - function block
- * Description: Compares the last digit of a variable n number with number 5
- * 
+ * Description: Compares the last digit of a variable n number with number 5 
  * Return: zero is returned
  */
 int main(void)
