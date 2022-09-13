@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * main - function block
- * Description: Prints a character on the screen using the _putchar function prototype
+ * Description: Prints a character on the screen
+ * using the _putchar function prototype declared in the main.h header file
  *
  * Return: zero is returned
  */
