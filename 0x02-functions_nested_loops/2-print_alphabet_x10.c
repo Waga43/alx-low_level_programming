@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - function block
+ * print_alphabet_x10 - function returns void data type. See description below
  * Description: Prints 10 times the alphabet, in lowercase, followed by a
  * new line  on the screen using the _putchar function prototype declared
  * in the main.h header file
