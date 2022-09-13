@@ -17,7 +17,7 @@ void print_alphabet_x10(void)
 
 	while (count < 10)
 	{
-		for (alphabet_1st >= 97; alphabet_1st <= 122; alphabet_1st++)
+		for (alphabet_1st = 97; alphabet_1st <= 122; alphabet_1st++)
 		{
 
 			_putchar(alphabet_1st);
