@@ -1,12 +1,14 @@
 #include "main.h"
 /**
  * main - function block
- * Description: Prints -putchar on the screen
+ * Description: Prints a character on the screen using the _putchar function prototype
+ *
  * Return: zero is returned
  */
 
 
-int main(){
+int main(void)
+{
 
 	_putchar('_');
 	_putchar('p');
@@ -18,5 +20,5 @@ int main(){
 	_putchar('r');
 	_putchar('\n');
 
-	return 1;
+	return (0);
 }
