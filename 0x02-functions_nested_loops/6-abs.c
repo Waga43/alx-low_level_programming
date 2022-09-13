@@ -2,7 +2,7 @@
 
 /**
  * _abs - Function computes the absolute value of an integer.
- * num@: Function takes a parameter num whose data type is int
+ * @num: Function takes a parameter num whose data type is int
  * Description: Function computes the absolute value of an integer.
  *
  * Return: Returns the absolute value of an integer
