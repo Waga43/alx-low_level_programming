@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower(int c) - Function checks for lowercase character.
+ * _islower - Function checks for lowercase character.
  * @c: Function takes a parameter c whose data type is int
  * Description: Checks for lowercase characters using the ASCII integer
  * representation of lowercase alphabets a-z which is 97-122
