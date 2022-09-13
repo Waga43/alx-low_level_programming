@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit- Function prints the last digit of a number.
- * @digit: Parameter taken by the function with dasta type int
+ * @num: Parameternumber to be checked by the function with data type int
  * Description: This is a function that returns the lst digit of a number
  *
  * Return: Funtion returns the value of the last digit of a number
