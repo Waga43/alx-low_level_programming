@@ -12,9 +12,6 @@
 int add(int num1, int num2)
 
 {
-	char n1 = num1;
-	char n2 = num2;
-	char result;
-	result = n1 + n2;
-	return (result);
+
+	return (num1 + num2);
 }
