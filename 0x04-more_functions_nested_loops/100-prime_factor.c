@@ -35,7 +35,7 @@ int main(void)
 	if (num > 2)
 		max = num;
 
-	printf("%ld\num", max);
+	printf("%ld\\num", max);
 
 	return (0);
 }
