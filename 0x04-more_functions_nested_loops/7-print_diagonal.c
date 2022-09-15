@@ -23,10 +23,10 @@ void print_diagonal(int n)
 			for (y = 0; y < n; y++)
 			
 			{
-				if (y == i)
+				if (y == x)
 					_putchar('\\');
 			
-				else if (y < i)
+				else if (y < x)
 					_putchar(' ');
 			
 			}
