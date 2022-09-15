@@ -22,8 +22,7 @@ int main(void)
 		max = 2;
 		num /= 2;
 	}
-
-	for (x = 3; x <= sqrt(num); x = x + 2)
+	for (x = 3; x <= sqrt(num); x += 2)
 	{
 		while (num % x == 0)
 		{
@@ -31,11 +30,10 @@ int main(void)
 			num = num / x;
 		}
 	}
-
 	if (num > 2)
 		max = num;
 
-	printf("%ld\\num", max);
+	printf("%ld\n", max);
 
 	return (0);
 }
