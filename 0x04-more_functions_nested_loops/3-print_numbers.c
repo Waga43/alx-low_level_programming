@@ -15,5 +15,5 @@ void print_numbers(void)
 	{
 		_putchar(num + '0');
 	}
-	_putchar('\n');	
+	_putchar('\n');
 }
