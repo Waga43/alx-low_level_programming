@@ -2,14 +2,14 @@
 
 /**
  * print_number - Function prints an integer.
- * @n: Parameter n is the integer to be printed.
+ * @x: Parameter x is the integer to be printed.
  *
  * Return: void is returned
  */
 
 void print_number(int x)
 {
-	unsigned int num = x;
+	unsigned int x = num;
 
 	if (x < 0)
 	{
