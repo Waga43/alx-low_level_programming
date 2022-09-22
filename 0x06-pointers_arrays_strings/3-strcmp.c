@@ -1,4 +1,4 @@
-#include "maini.h"
+#include "main.h"
 /**
  * _strcmp - compares two strings
  * @s1: Frist string to be compared with s2
