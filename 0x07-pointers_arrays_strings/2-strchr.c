@@ -5,7 +5,7 @@
  * @s: String pointerparameter of char type
  * @c: Character to search
  *
- * Return: Returns a pointer to the first occurrence of the character c 
+ * Return: Returns a pointer to the first occurrence of the character c
  * in the string s, or NULL if the character is not found
  **/
 
