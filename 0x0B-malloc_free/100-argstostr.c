@@ -14,19 +14,19 @@
 char *argstostr(int ac, char **av)
 {
 	char *aout;
-	int w, x, y, xa;
+	int c, x, y, xa;
 
 	if (ac == 0)
 		return (NULL);
 
-	for (w = x = 0; x < ac; x++)
+	for (c = x = 0; x < ac; x++)
 	{
 		if (av[x] == NULL)
 			return (NULL);
 
 		for (y = 0; av[x][y] != '\0'; y++)
-			w++;
-		w++;
+			c++;
+		c++;
 	}
 
 	aout = malloc((w + 1) * sizeof(char));
@@ -37,7 +37,7 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	}
 
-	for (x = y = xa = 0; xa < w; y++, xa++)
+	for (x = y = xa = 0; xa < c; y++, xa++)
 	{
 		if (av[x][y] == '\0')
 		{
@@ -46,7 +46,7 @@ char *argstostr(int ac, char **av)
 			xa++;
 			y = 0;
 		}
-		if (xa < w - 1)
+		if (xa < c - 1)
 			aout[xa] = av[x][j];
 	}
 	aout[xa] = '\0';
