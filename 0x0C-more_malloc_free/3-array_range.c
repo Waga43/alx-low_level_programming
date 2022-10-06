@@ -4,8 +4,8 @@
  * array_range - Function creates an array of integers
  * @min: minimum
  * @max: maximum
- * Description: The array created should contain all the values from min (included)
- * to max (included), ordered from min to max
+ * Description: The array created should contain all the values from min
+ * (included) to max (included), ordered from min to max
  * If min > max, return NULL
  * If malloc fails, return NULL
  *
