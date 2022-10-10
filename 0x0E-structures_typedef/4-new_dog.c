@@ -7,7 +7,7 @@
  * @name: name of the dog.
  * @age: age of the dog.
  * @owner: owner of the dog.
- * 
+ *
  * Return: struct dog.
  * Return NULL if the function fails
  */
