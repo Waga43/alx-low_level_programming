@@ -7,7 +7,7 @@
  * @cmp: A pointer to the function to be used to compare values.
  * Description: int_index returns the index of the first element for which
  * the cmp function does not return 0
- * 
+ *
  * Return: If no element matches, return -1.
  * If size <= 0, return -1
  */
