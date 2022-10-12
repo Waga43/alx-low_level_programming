@@ -9,7 +9,7 @@
  * You are not allowed to use goto. You are not allowed to use else
  * You are not allowed to use more than one if statement in your code
  * You are not allowed to use more than one while loop in your code
- * 
+ *
  * Return: pointer to the function that corresponds to the operator given
  * as a parameter
  * If s does not match any of the 5 expected operators
