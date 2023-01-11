@@ -1,6 +1,6 @@
 #include "hash_tables.h"
 
-[2;2R[>0;136;0c/**
+/**
  * hash_table_delete - Deletes a hash table.
  * @ht: A pointer to a hash table.
  */
