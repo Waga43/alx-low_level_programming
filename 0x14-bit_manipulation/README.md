@@ -1,3 +1,3 @@
-## ALX Bit Manipulation Project
+# Introduction
 
-This directory contains the files of the ALX Bit manipulation project.
+This directory contains files of the ALX Bit Manipulation project tasks
